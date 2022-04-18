@@ -81,3 +81,8 @@ lazy_static! {
     static ref SQLPOOL: mysql::Pool = Pool::new(BLOG_URL).unwrap();
 }
 ```
+
+### todo list
+- [ ] 网站 SEO 优化
+- [ ] markdown 支持语法高亮
+- [ ] 管理系统 (打算拿 `android` 实现)
